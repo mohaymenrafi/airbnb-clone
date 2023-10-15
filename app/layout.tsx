@@ -17,11 +17,11 @@ const font = Nunito({
 	subsets: ["latin"],
 });
 
-export default async function RootLayout({
-	children,
-}: {
+type PropType = {
 	children: React.ReactNode;
-}) {
+};
+
+export default async function RootLayout({ children }: PropType) {
 	const currentUser = await getCurrentUser();
 	return (
 		<html lang="en">
