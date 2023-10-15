@@ -1,3 +1,3 @@
 # Airbnb Clone with Nextjs
 
-## with tailwind
+<!-- time stamp: 4.05.39 -->
